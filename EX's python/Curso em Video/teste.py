@@ -1,19 +1,6 @@
-def soma_intervalo(a,b):
-    soma = 0
-    if a > b:
-        aux = b
-        b = a
-        a = aux
-    for c in range(a+1,b):
-        soma += c
-    print(f"O A soma entre os numeros no intervalo de {a} até {b} é {soma}")
+def imprime_dicionario(dict):
+        print(dict)
 
-soma_intervalo(5,8)
-
-
-
-
-
-
-
+dic = {"a":1,"b":2,"c":3}
+imprime_dicionario(dic)
 
