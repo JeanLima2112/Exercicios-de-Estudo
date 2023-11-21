@@ -3,7 +3,6 @@
 
 #Bibliotecas
 import math as m
-
 #Funções
 def valid(min,max,msg,msgerro,tp = 0):
   import math as m
@@ -96,7 +95,7 @@ def notacient(v): #Notação científica
   
 #MENU
 while True:
-  op = valid(0,3,"Selecione a opção desejada:\n 0 - Encerrar Programa\n 1 - Conversão de Medidas\n 2 - Cálculo Área\n 3 - Cálculo Volume\n: ", "Opção Inválida",1)
+  op = valid(0,3,"Selecione a opção desejada:\n 0 - Encerrar Programa\n 1 - Conversão de Medidas\n 2 - Cálculo Área\n 3 - Cálculo Volume\n: ", "Se è Burro né irmão?",1)
   if op == 0:
     break
   elif op == 1:           #Conversão de medidas     
@@ -129,7 +128,8 @@ while True:
             break
         if u1 == 0:
           continue
-        k = convert(numero,u1,u2,d)         #Conversão de medidas
+        k = convert(numero,u1,u2,d)         #Conversão de medidas-
+#########################################################################################
   elif op == 2:           #Cálculo de Área
     while True:
       print("\n(2) CÁLCULO ÁREA") 
@@ -365,7 +365,8 @@ while True:
                 continue
             if convarea7 == 0:
               continue
-            break 
+            break
+#########################################################################################
   elif op == 3:           #Cálculo de Volume
     while True:
       print("\n(3) CÁLCULO VOLUME") 
@@ -589,4 +590,5 @@ while True:
             if altura_v6 == 0:
               continue
             break
+#########################################################################################
 print("\nPrograma Encerrado!")
