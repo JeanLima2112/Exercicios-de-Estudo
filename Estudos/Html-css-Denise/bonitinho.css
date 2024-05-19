@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(215, 230, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  h1 {
+    color: rgb(17, 0, 253);
+    text-align: center;
+  }
+  
+  p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
